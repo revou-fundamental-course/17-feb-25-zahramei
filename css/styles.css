@@ -1,11 +1,18 @@
 .logo {
-    border: 2px solid;
     height: 80px;
     width: 80px;
-    background-image: url();
     background-size: cover;
+    object-fit: cover;
     border-radius: 50%;
+}
 
+.logo img {
+    width: 90px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 .main-header {
@@ -15,5 +22,64 @@
 }
 
 .nav-links {
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    font-size: 25px;
+}
+   
+.Autoslide {
+    display: flex ;
+    gap: 24px;
+}
+
+.main-content {
+    border: 1px solid;
+    height: 400px;
+    width: 100%;
     
+}
+
+.main-container {
+    border: 1px solid;
+    height: 400px;
+    width: 100%;
+}
+
+#our-packages-section>header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: #dbbb05b3;
+}
+
+#our-packages-content {
+   border: 1px solid;
+    height: 300px;
+}
+
+#call-us-section>header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: #9e7d22b3;
+}
+
+.call-us-content {
+   border: 1px solid;
+    height: 300px;
+}
+
+
+footer {
+    text-align: center;
 }
