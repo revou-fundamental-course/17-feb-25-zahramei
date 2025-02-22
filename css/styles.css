@@ -1,0 +1,19 @@
+.logo {
+    border: 2px solid;
+    height: 80px;
+    width: 80px;
+    background-image: url();
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    
+}
